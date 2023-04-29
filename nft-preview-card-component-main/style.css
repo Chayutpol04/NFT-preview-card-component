@@ -95,8 +95,6 @@ body{
     color: #00FFF8;
     cursor: pointer;
 }
-
-
 .picture:hover .eyeview{
     opacity: 0.5;
     cursor: pointer;
