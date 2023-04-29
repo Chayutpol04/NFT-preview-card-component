@@ -1,0 +1,113 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Outfit', sans-serif;
+}
+body{
+    background: #0D192C;
+  
+}
+.container{
+    width: 350px;
+    height: 596px;
+    box-sizing: border-box;
+    background: #15263F;
+    box-shadow: 0px 25px 50px rgba(0, 0, 0, 0.0952917);
+    margin: auto;
+    margin-top: 152px;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.picture > .item{
+    width: 302px;
+    height: 302px;
+    margin-top: 24px;
+    border-radius: 8px;
+}
+.text-item{
+    color: white;
+    font-weight: 500;
+    margin-top: 24px;
+    font-size: 22px;
+}
+.text-description{
+    margin-top: 16px;
+    color: #8BACD9;
+    line-height: 26px;
+}
+.text-price-day{
+    margin-top: 24px;
+    display:flex;
+    justify-content: space-between;
+}
+.price{
+    display: flex;
+    color: #00FFF8;
+    font-weight: bold;
+}
+.day{
+   display: flex;
+   color: #8BACD9;
+}
+.line{
+    margin-top: 24px;
+    border: 0.5px solid  #2E405A;
+}
+.footer{
+    margin-top: 16px;
+    display: flex;
+    align-items: center;
+    color: white;
+}
+.ft-left{
+    color: #8BACD9;
+}
+.proflie{
+    border: 2px white solid;
+    border-radius: 100%;
+}
+
+.picture > .eye{
+    position: absolute;
+    align-self: center;
+    opacity: 0;
+}
+.picture{
+    position: relative;
+    display: flex;
+    justify-content: center;
+}
+.eyeview{
+    position: absolute; 
+    transition: 0.3 ease;
+    background-color: white;
+    margin-top: 24px;
+    width: 302px;
+    height: 302px;
+    border-radius: 9px;
+    opacity: 0;
+ }
+
+/*active*/
+.text-item:hover{
+    color: #00FFF8;
+    cursor: pointer;
+}
+
+
+.picture:hover .eyeview{
+    opacity: 0.5;
+    cursor: pointer;
+}
+.picture:hover .eye{
+    opacity: 0.5;
+    cursor: pointer;
+}
+.ft:hover{
+    color: #00FFF8;
+    cursor: pointer;
+}
+
+
